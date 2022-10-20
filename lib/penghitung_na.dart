@@ -56,7 +56,8 @@ class _PenghitungNAState extends State<PenghitungNA> {
           ),
           centerTitle: true,
           title: const Text("Penghitung Nilai Akhir",
-              style: TextStyle(fontWeight: FontWeight.bold)),
+              style:
+                  TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
           actions: const [
             IconButton(
               onPressed: null,
@@ -306,7 +307,7 @@ class _AboutMeState extends State<AboutMe> {
         //backgroundColor: Colors.purple,
         centerTitle: true,
         title: const Text("About Me",
-            style: TextStyle(fontWeight: FontWeight.bold)),
+            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white)),
       ),
     );
   }
